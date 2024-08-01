@@ -18,28 +18,51 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 /* Containers */
 div {
   background-color: #eae2b7;
-  margin: auto;
   width: 600px;
 }
 
 article {
-  padding: 50px 0;
+  /* padding: 50px 0; */
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.images {
+  margin: 0px 10px 0px 10px;
 }
 
 article div {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.description {
+  font-size: 14px;
+  text-align: center;
 }
 
 /* Links */
@@ -60,6 +83,7 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  /* margin: 20px; */
 }
 
 .image-circle {
